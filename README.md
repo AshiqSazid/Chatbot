@@ -1,9 +1,9 @@
 # Chat Bot
-Chatbot application built using Django, Template, Grog API, SQLite3, and a frontend developed with Tailwind CSS, CSS, and JavaScript. This project serves as a texting assistant chat with interactive chat functionalities with sentiment analysis.
+Chatbot application built using Django, Template, Groq API, SQLite3, and a frontend developed with Tailwind CSS, CSS, and JavaScript. This project serves as a texting assistant chat with interactive chat functionalities with sentiment analysis.
 
 ## Features
 
-- **Chat Bot with LLM**: Integrates Grog API (Llama3) for high-quality text responses with sentiment analysis.
+- **Chat Bot with LLM**: Integrates Groq API (Llama3) for high-quality text responses with sentiment analysis.
 - **User-Friendly UI**: Responsive and interactive chat interface built with Tailwind CSS, CSS, and JavaScript.
 - **Conversation Management**: Users can create, retrieve, update, and delete conversations.
 - **User Authentication**: Register, login, and token refresh functionality in chatbot conversations.
@@ -29,7 +29,7 @@ Assignment/
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/your-repo/Chatbot.git](https://github.com/AshiqSazid/Chatbot.git
+git clone https://github.com/AshiqSazid/Chatbot.git
 cd Chatbot
 ```
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ### Set Up Environment Variables
 Create a `.env` file with the following content:
 ```env
-grog_API_KEY=grog_api_key_here
+groq_API_KEY=groq_api_key_here
 DATABASE_URL=sqlite3://username:password@localhost: http://127.0.0.1:8000/Chatbot_db
 ```
 
