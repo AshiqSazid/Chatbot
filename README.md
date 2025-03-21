@@ -30,8 +30,8 @@ Assignment/
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/your-repo/Chatbot-llm.git
-cd AIbot-llm
+git clone: https://github.com/your-repo/Chatbot.git](https://github.com/AshiqSazid/Chatbot.git
+cd Chatbot
 ```
 
 ### Create a Virtual Environment & Install Dependencies
@@ -61,7 +61,7 @@ python manage.py runserver
 
 ## Usage
 1. Open a browser and go to `http://127.0.0.1:8000/`
-2. Register or log in to start chatting with the AI bot.
+2. Register or log in to start chatting with the CHat bot.
 3. Manage conversations from the chatbot interface.
 ## Contributing
 Contributions are welcome! Fork the repository, make your changes, and submit a pull request,or mail ashiqsazid494@gmail.com
