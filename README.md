@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ### Set Up Environment Variables
 Create a `.env` file with the following content:
 ```env
-grog_API_KEY=your_api_key_here
+grog_API_KEY=grog_api_key_here
 DATABASE_URL=sqlite3://username:password@localhost: http://127.0.0.1:8000/Chatbot_db
 ```
 
