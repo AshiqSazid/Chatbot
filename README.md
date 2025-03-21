@@ -29,7 +29,7 @@ Assignment/
 
 ### Clone the Repository
 ```sh
-git clone: https://github.com/your-repo/Chatbot.git](https://github.com/AshiqSazid/Chatbot.git
+git clone https://github.com/your-repo/Chatbot.git](https://github.com/AshiqSazid/Chatbot.git
 cd Chatbot
 ```
 
