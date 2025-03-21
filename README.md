@@ -1,6 +1,5 @@
 # Chat Bot
-
-Chat Bot is a chatbot application built using Django, Template, Grog API, SQLite3, and a frontend developed with Tailwind CSS, CSS, and JavaScript. This project serves as a texting assistant chat with interactive chat functionalities.
+Chatbot application built using Django, Template, Grog API, SQLite3, and a frontend developed with Tailwind CSS, CSS, and JavaScript. This project serves as a texting assistant chat with interactive chat functionalities with sentiment analysis.
 
 ## Features
 
