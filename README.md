@@ -4,7 +4,7 @@ Chat Bot is a chatbot application built using Django, Template, Grog API, SQLite
 
 ## Features
 
-- **Chat Bot with LLM **: Integrates Grog API (Llama3) for high-quality text responses with sentim,ent analysis.
+- **Chat Bot with LLM**: Integrates Grog API (Llama3) for high-quality text responses with sentiment analysis.
 - **User-Friendly UI**: Responsive and interactive chat interface built with Tailwind CSS, CSS, and JavaScript.
 - **Conversation Management**: Users can create, retrieve, update, and delete conversations.
 - **User Authentication**: Register, login, and token refresh functionality in chatbot conversations.
