@@ -61,7 +61,7 @@ python manage.py runserver
 ## Usage
 1. Open a browser and go to `sqlite3://username:password@localhost:http://127.0.0.1:8000/Chatbot_db`
 2. Register or log in to start chatting with the Chat bot.
-3. Manage conversations from the chatbot interface.
+3. You can manage conversations from the chatbot interface.
 ## Contributing
 Contributions are welcome! Fork the repository, make your changes, and submit a pull request,or mail ashiqsazid494@gmail.com
 
