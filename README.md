@@ -1,38 +1,69 @@
-Ai bot:
-Ai bot application using Django,Template,Grog API,Sqite3, and a frontend built(CSS & JS) with tailwind css. The project is basically of texting  assistant chat,it also has chat interactions.
-Features:
-Aibot with LLM: Integrates Grog API (llama3) for good text responses.
-User-Friendly UI: Built with tailwind css,css and  JavaScript for a good responsive and friendly  chat interface.
-Conversation Management: Create, retrieve, update, and delete conversations.
-Authentication for user: Register, login, and we also used token refresh functionality in the chatbot conversation.
-Unit Testing: Ensures API reliability with mock data testing.
-SQLITE3 Database: Stores chat logs and user interactions.
-Error Handling & Fallback: Handles API limits and provides fallback responses.
+# AI Bot
 
+AI Bot is a chatbot application built using Django, Template, Grog API, SQLite3, and a frontend developed with Tailwind CSS, CSS, and JavaScript. This project serves as a texting assistant chat with interactive chat functionalities.
+
+## Features
+
+- **AI Bot with LLM**: Integrates Grog API (Llama3) for high-quality text responses.
+- **User-Friendly UI**: Responsive and interactive chat interface built with Tailwind CSS, CSS, and JavaScript.
+- **Conversation Management**: Users can create, retrieve, update, and delete conversations.
+- **User Authentication**: Register, login, and token refresh functionality in chatbot conversations.
+- **Unit Testing**: Ensures API reliability with mock data testing.
+- **SQLite3 Database**: Stores chat logs and user interactions.
+- **Error Handling & Fallback**: Manages API limits and provides fallback responses.
+
+## Project Structure
+
+```
 Assignment/
 ├── Ai_bot/
 │   ├── chatbot/
 │   ├── chatbot_llm/
-│   ├── template
+│   ├── template/
 │   ├── manage.py
 │   ├── requirements.txt
 │   ├── db.sqlite3
-├─── frontend/ (Contains CSS & JS chat UI)
+├── frontend/  # Contains CSS & JS for the chat UI
+```
 
-Installation & Setup:
-1. Clone the Repository
-git clone https: //github.com/your-repo/AIbot-llm.git
-cd chatbot-llm
-2. Create a Virtual Environment & Install Dependencies
+## Installation & Setup
+
+### Clone the Repository
+```sh
+git clone https://github.com/your-repo/AIbot-llm.git
+cd AIbot-llm
+```
+
+### Create a Virtual Environment & Install Dependencies
+```sh
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-3. Set Up Environment Variables
-Create a .env file with the following content:
+```
+
+### Set Up Environment Variables
+Create a `.env` file with the following content:
+```env
 grog_API_KEY=your_api_key_here
 DATABASE_URL=sqlite3://username:password@localhost: http://127.0.0.1:8000/Chatbot_db
-4. Apply Database Migrations
+```
+
+### Apply Database Migrations
+```sh
 python manage.py migrate
 python manage.py createsuperuser  # (Optional, for admin access)
-5. Run the Server
+```
+
+### Run the Server
+```sh
 python manage.py runserver
+```
+
+## Usage
+1. Open a browser and go to `http://127.0.0.1:8000/`
+2. Register or log in to start chatting with the AI bot.
+3. Manage conversations from the chatbot interface.
+## Contributing
+Contributions are welcome! Fork the repository, make your changes, and submit a pull request,or mail ashiqsazid494@gmail.com
+
+
