@@ -1,10 +1,10 @@
-# AI Bot
+# Chat Bot
 
-AI Bot is a chatbot application built using Django, Template, Grog API, SQLite3, and a frontend developed with Tailwind CSS, CSS, and JavaScript. This project serves as a texting assistant chat with interactive chat functionalities.
+Chat Bot is a chatbot application built using Django, Template, Grog API, SQLite3, and a frontend developed with Tailwind CSS, CSS, and JavaScript. This project serves as a texting assistant chat with interactive chat functionalities.
 
 ## Features
 
-- **AI Bot with LLM**: Integrates Grog API (Llama3) for high-quality text responses.
+- **Chat Bot with LLM**: Integrates Grog API (Llama3) for high-quality text responses.
 - **User-Friendly UI**: Responsive and interactive chat interface built with Tailwind CSS, CSS, and JavaScript.
 - **Conversation Management**: Users can create, retrieve, update, and delete conversations.
 - **User Authentication**: Register, login, and token refresh functionality in chatbot conversations.
@@ -30,7 +30,7 @@ Assignment/
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/your-repo/AIbot-llm.git
+git clone https://github.com/your-repo/Chatbot-llm.git
 cd AIbot-llm
 ```
 
